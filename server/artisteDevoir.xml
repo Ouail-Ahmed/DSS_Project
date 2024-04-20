@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Artists1.xsl"?>
+
+
+
+<CD nom="MON CD">
+    <!--  Les artistes  -->
+    <artiste no="a01" nom=" FIRGANI mohamed Taher" ville="Constantine">
+        <site url="http://www.Mohamedfergani.dz"/>
+        <biographie>Ne a constantine, grand chanteur de malouf</biographie>
+    </artiste>
+    <artiste no="a03" nom="ALHACHEMI GUARWABI" ville="Alger">
+    <site url="http://www.AlhachemiGUATWABI.dz"/>
+    <biographie>Ne a alger, grand chanteur de asimi</biographie>
+    </artiste>
+    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba">
+        <site url="http://www.Bennani Hamedi.dz"/>
+        <biographie>Ne a Annaba, grand chanteur de malouf moderne</biographie>
+    </artiste>
+    
+    <artiste no="a04" nom="IDIR" ville="TIZI OUZOU">
+        <site url="http://www.IDIR.dz"/>
+        <biographie>Ne a TiziOuzou, grand chanteur de Kabyle</biographie>
+    </artiste>
+    <!--  Les Albums  -->
+    <album annee="1957" reference="firg" photo="https://www.dknews-dz.com/data/images/article/thumbs/d-72335selon-le-monde-en-la-personne-de-mohamed-tahar-fergani-lalgerie-a-perdu-une-autre-figure-de-son-patrimoine-culturel-ad3fc.JPG">
+        <titre>MALOUF constantinois</titre>
+        <ref-artiste ref="a01"/>
+        <chansons>
+            <chanson>yanadim</chanson>
+            <chanson>layali sourour</chanson>            
+        </chansons>
+    </album>
+    <album annee="1983" reference="hach2" photo="https://img.cdandlp.com/2019/10/imgL/3104652036.png">
+        <titre>ASIMI</titre>
+        <ref-artiste ref="a03"/>
+        <chansons>
+            <chanson>GOULOU Liness</chanson>
+        </chansons>
+    </album>
+    <album annee="1964" reference="hash1" photo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Www_maghrebspace_net_07022013115213_785El_hachemi_guerouabi.jpg">
+        <titre>Réligion</titre>
+        <ref-artiste ref="a03"/>
+        <chansons>
+            <chanson>ADAM WA HAWA</chanson>
+            <chanson>YOUCEF</chanson>
+            
+        </chansons>
+        
+    </album>
+    <album annee="1986" reference="bina1" photo="https://upload.wikimedia.org/wikipedia/ar/6/6b/%D8%AD%D9%85%D8%AF%D9%8A_%D8%A8%D9%86%D8%A7%D9%86%D9%8A.jpg">
+        <titre>Malouf moderne</titre>
+        <ref-artiste ref="a02"/>
+        <chansons>
+            <chanson>hama ya madani</chanson>
+            <chanson>bismellah</chanson>            
+        </chansons>
+    </album>
+    <album annee="1999" reference="bina2" photo="https://media2.ledevoir.com/images_galerie/nwd_130434_100568/image.jpg">
+        <titre>Malouf Annabi</titre>
+        <ref-artiste ref="a02"/>
+        <chansons>
+            <chanson>Bilah Ya hammama</chanson>
+            <chanson>bismellah</chanson>
+        </chansons>
+    </album>
+    
+    <album annee="2000" reference="idi" photo="https://www.clique.tv/wp-content/uploads/2016/02/a-vava-inouva.jpg">
+        <titre>KABYLe</titre>
+        <ref-artiste ref="a04"/>
+        <chansons>
+            <chanson>i vava inouva</chanson>        
+        </chansons>
+    </album>
+    
+    <!-- grey -->
+    <biblio>
+        <memoire typeMemo="national">
+            <titre>Application Web</titre>
+            <auteur>Ali</auteur>
+            <universite>Université de Boumerdès</universite>
+            <annee>2021</annee>
+        </memoire>
+        
+        <memoire typeMemo="international">
+            <titre>Mobile Application Development</titre>
+            <auteur>Mohamed</auteur>
+            <universite>Université de Boumerdès</universite>
+            <annee>2021</annee>
+        </memoire>
+        
+        <livre>
+            <titre>Data Science</titre>
+            <auteur>Ali Benali</auteur>
+            <tome nb_pages="110" soustitre="Advanced Topics"/>
+            <edition>
+                <editeur>Eyrolles</editeur>
+                <lieu_edition>Annaba</lieu_edition>
+                <ISBN>3336669995</ISBN>
+                <annee>2000</annee>
+            </edition>
+        </livre>
+        
+        <article>
+            <titre>Data Analysis Techniques</titre>
+            <auteur>John Doe</auteur>
+            <annee>2020</annee>
+            <journal nom_journal="Journal of Data Science">
+                <pages>12à29</pages>
+                <num_journal>Volume 5, Issue 2</num_journal>
+            </journal>
+        </article>
+        
+        <memoire typeMemo="national">
+            <titre>Application Web</titre>
+            <auteur>Ali</auteur>
+            <universite>Université de Boumerdès</universite>
+            <annee>2021</annee>
+        </memoire>
+        
+        <memoire typeMemo="international">
+            <titre>Mobile Application Development</titre>
+            <auteur>Mohamed</auteur>
+            <universite>Université de Boumerdès</universite>
+            <annee>2021</annee>
+        </memoire>
+        
+        <memoire typeMemo="national">
+            <titre>Web Security</titre>
+            <auteur>Fatima</auteur>
+            <universite>Université d'Alger</universite>
+            <annee>2022</annee>
+        </memoire>
+        
+        <memoire typeMemo="international">
+            <titre>Big Data Analytics</titre>
+            <auteur>Karim</auteur>
+            <universite>Université de Constantine</universite>
+            <annee>2020</annee>
+        </memoire>
+        
+        <article>
+            <titre>Data Analysis Techniques</titre>
+            <auteur>John Doe</auteur>
+            <annee>2020</annee>
+            <journal nom_journal="Journal of Data Science">
+                <pages>12à29</pages>
+                <num_journal>Volume 5, Issue 2</num_journal>
+            </journal>
+        </article>
+        
+        <article>
+            <titre>Machine Learning Algorithms</titre>
+            <auteur>Jane Smith</auteur>
+            <annee>2018</annee>
+            <journal nom_journal="Machine Learning Journal">
+                <pages>45à62</pages>
+                <num_journal>Volume 10, Issue 3</num_journal>
+            </journal>
+        </article>
+        
+        <article>
+            <titre>Deep Learning Applications</titre>
+            <auteur>Michael Johnson</auteur>
+            <annee>2021</annee>
+            <journal nom_journal="Neural Networks">
+                <pages>78à95</pages>
+                <num_journal>Volume 15, Issue 1</num_journal>
+            </journal>
+        </article>
+        
+        <article>
+            <titre>Natural Language Processing</titre>
+            <auteur>Emily Brown</auteur>
+            <annee>2019</annee>
+            <journal nom_journal="Natural Language Engineering">
+                <pages>102à115</pages>
+                <num_journal>Volume 8, Issue 4</num_journal>
+            </journal>
+        </article>
+        
+        <livre>
+            <titre>Les Misérables</titre>
+            <auteur>Victor Hugo</auteur>
+            <tome nb_pages="1488" soustitre="Tome 1"/>
+            <edition>
+                <editeur>Gallimard</editeur>
+                <lieu_edition>Paris</lieu_edition>
+                <ISBN>9782070109</ISBN>
+                <annee>1862</annee>
+            </edition>
+        </livre>
+        
+        <livre>
+            <titre>Crime and Punishment</titre>
+            <auteur>Fyodor Dostoevsky</auteur>
+            <tome nb_pages="671" soustitre="Tome 1"/>
+            <edition>
+                <editeur>Penguin Classics</editeur>
+                <lieu_edition>New York</lieu_edition>
+                <ISBN>9780148142</ISBN>
+                <annee>1866</annee>
+            </edition>
+        </livre>
+        
+        <livre>
+            <titre>Pride and Prejudice</titre>
+            <auteur>Jane Austen</auteur>
+            <tome nb_pages="279" soustitre="Tome 1"/>
+            <edition>
+                <editeur>Wordsworth Editions Ltd</editeur>
+                <lieu_edition>Hertfordshire</lieu_edition>
+                <ISBN>9781850001</ISBN>
+                <annee>1813</annee>
+            </edition>
+        </livre>
+        
+    </biblio>
+    
+</CD>
