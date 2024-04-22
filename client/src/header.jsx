@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <nav className="nav">
       <a href="/" className="site_title">
-        Site Name
+        Artistes Wiki
       </a>
     </nav>
   );

@@ -5,29 +5,29 @@
 
 <CD nom="MON CD">
     <!--  Les artistes  -->
-    <artiste no="a01" nom=" FIRGANI mohamed Taher" ville="Constantine">
+    <artiste no="a01" nom=" FIRGANI mohamed Taher" ville="Constantine" photo="https://radioalgerie.dz/news/sites/default/files/field/image/violon-fergani.jpg">
         <site url="http://www.Mohamedfergani.dz"/>
         <biographie>Ne a constantine, grand chanteur de malouf</biographie>
     </artiste>
-    <artiste no="a03" nom="ALHACHEMI GUARWABI" ville="Alger">
+    <artiste no="a03" nom="ALHACHEMI GUARWABI" ville="Alger" photo="data:image/jpeg;base64,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">
     <site url="http://www.AlhachemiGUATWABI.dz"/>
     <biographie>Ne a alger, grand chanteur de asimi</biographie>
     </artiste>
-    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba">
+    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba" photo="data:image/jpeg;base64,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">
         <site url="http://www.Bennani Hamedi.dz"/>
         <biographie>Ne a Annaba, grand chanteur de malouf moderne</biographie>
     </artiste>
     
-    <artiste no="a04" nom="IDIR" ville="TIZI OUZOU">
+    <artiste no="a04" nom="IDIR" ville="TIZI OUZOU" photo="2wCEAAkGBw8QDw8QDw8QEBAPDw4PEBUPDw8PDw4PFRUXFhUVFRUYHSggGBolHRUWITEhJSkrLy4uFyAzODMtNygtLisBCgoKDg0OGBAQFysdHR0rKy0tKystLS0tKystKy0rLS0rKystKy0tLSstLSsrKy0rKy0tLS0rLS0tLSs3LS0rLf">
         <site url="http://www.IDIR.dz"/>
         <biographie>Ne a TiziOuzou, grand chanteur de Kabyle</biographie>
     </artiste>
     <!--  Les Albums  -->
-    <album annee="1957" reference="firg" photo="https://www.dknews-dz.com/data/images/article/thumbs/d-72335selon-le-monde-en-la-personne-de-mohamed-tahar-fergani-lalgerie-a-perdu-une-autre-figure-de-son-patrimoine-culturel-ad3fc.JPG">
+    <album annee="1957" reference="firg" photo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoR8VAmPBGEHZrPowceDuZXKHDbru9UNUFTYHfxWkmLZCUNi6YNGBEaT1fPSB4wlfGekysBzLV8q1au4v5OY6xIPGBLcVuoVm3yYezDwwFN70fG5qYOZ3E1ZWN2ux3GSHitiiWWu0U4vXt/w638-h640/1bis+Algeria+Mohamed+Tahar+Fergani+Sawt+El+Menyar+-+1004+Front.jpg">
         <titre>MALOUF constantinois</titre>
         <ref-artiste ref="a01"/>
         <chansons>
-            <chanson>yanadim</chanson>
+            <chanson >yanadim</chanson>
             <chanson>layali sourour</chanson>            
         </chansons>
     </album>
@@ -73,148 +73,5 @@
         </chansons>
     </album>
     
-    <!-- grey -->
-    <biblio>
-        <memoire typeMemo="national">
-            <titre>Application Web</titre>
-            <auteur>Ali</auteur>
-            <universite>Université de Boumerdès</universite>
-            <annee>2021</annee>
-        </memoire>
-        
-        <memoire typeMemo="international">
-            <titre>Mobile Application Development</titre>
-            <auteur>Mohamed</auteur>
-            <universite>Université de Boumerdès</universite>
-            <annee>2021</annee>
-        </memoire>
-        
-        <livre>
-            <titre>Data Science</titre>
-            <auteur>Ali Benali</auteur>
-            <tome nb_pages="110" soustitre="Advanced Topics"/>
-            <edition>
-                <editeur>Eyrolles</editeur>
-                <lieu_edition>Annaba</lieu_edition>
-                <ISBN>3336669995</ISBN>
-                <annee>2000</annee>
-            </edition>
-        </livre>
-        
-        <article>
-            <titre>Data Analysis Techniques</titre>
-            <auteur>John Doe</auteur>
-            <annee>2020</annee>
-            <journal nom_journal="Journal of Data Science">
-                <pages>12à29</pages>
-                <num_journal>Volume 5, Issue 2</num_journal>
-            </journal>
-        </article>
-        
-        <memoire typeMemo="national">
-            <titre>Application Web</titre>
-            <auteur>Ali</auteur>
-            <universite>Université de Boumerdès</universite>
-            <annee>2021</annee>
-        </memoire>
-        
-        <memoire typeMemo="international">
-            <titre>Mobile Application Development</titre>
-            <auteur>Mohamed</auteur>
-            <universite>Université de Boumerdès</universite>
-            <annee>2021</annee>
-        </memoire>
-        
-        <memoire typeMemo="national">
-            <titre>Web Security</titre>
-            <auteur>Fatima</auteur>
-            <universite>Université d'Alger</universite>
-            <annee>2022</annee>
-        </memoire>
-        
-        <memoire typeMemo="international">
-            <titre>Big Data Analytics</titre>
-            <auteur>Karim</auteur>
-            <universite>Université de Constantine</universite>
-            <annee>2020</annee>
-        </memoire>
-        
-        <article>
-            <titre>Data Analysis Techniques</titre>
-            <auteur>John Doe</auteur>
-            <annee>2020</annee>
-            <journal nom_journal="Journal of Data Science">
-                <pages>12à29</pages>
-                <num_journal>Volume 5, Issue 2</num_journal>
-            </journal>
-        </article>
-        
-        <article>
-            <titre>Machine Learning Algorithms</titre>
-            <auteur>Jane Smith</auteur>
-            <annee>2018</annee>
-            <journal nom_journal="Machine Learning Journal">
-                <pages>45à62</pages>
-                <num_journal>Volume 10, Issue 3</num_journal>
-            </journal>
-        </article>
-        
-        <article>
-            <titre>Deep Learning Applications</titre>
-            <auteur>Michael Johnson</auteur>
-            <annee>2021</annee>
-            <journal nom_journal="Neural Networks">
-                <pages>78à95</pages>
-                <num_journal>Volume 15, Issue 1</num_journal>
-            </journal>
-        </article>
-        
-        <article>
-            <titre>Natural Language Processing</titre>
-            <auteur>Emily Brown</auteur>
-            <annee>2019</annee>
-            <journal nom_journal="Natural Language Engineering">
-                <pages>102à115</pages>
-                <num_journal>Volume 8, Issue 4</num_journal>
-            </journal>
-        </article>
-        
-        <livre>
-            <titre>Les Misérables</titre>
-            <auteur>Victor Hugo</auteur>
-            <tome nb_pages="1488" soustitre="Tome 1"/>
-            <edition>
-                <editeur>Gallimard</editeur>
-                <lieu_edition>Paris</lieu_edition>
-                <ISBN>9782070109</ISBN>
-                <annee>1862</annee>
-            </edition>
-        </livre>
-        
-        <livre>
-            <titre>Crime and Punishment</titre>
-            <auteur>Fyodor Dostoevsky</auteur>
-            <tome nb_pages="671" soustitre="Tome 1"/>
-            <edition>
-                <editeur>Penguin Classics</editeur>
-                <lieu_edition>New York</lieu_edition>
-                <ISBN>9780148142</ISBN>
-                <annee>1866</annee>
-            </edition>
-        </livre>
-        
-        <livre>
-            <titre>Pride and Prejudice</titre>
-            <auteur>Jane Austen</auteur>
-            <tome nb_pages="279" soustitre="Tome 1"/>
-            <edition>
-                <editeur>Wordsworth Editions Ltd</editeur>
-                <lieu_edition>Hertfordshire</lieu_edition>
-                <ISBN>9781850001</ISBN>
-                <annee>1813</annee>
-            </edition>
-        </livre>
-        
-    </biblio>
-    
+   
 </CD>

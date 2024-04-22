@@ -15,17 +15,17 @@ const Artiste = () => {
         <div className="artistePage">
           <img
             className="artisteImage"
-            src={location.state.image}
+            src={location.state.picture}
             alt={location.state.name}
           />
 
           <h1 className="artisteName">{location.state.name}</h1>
-          <p className="artisteBio">{location.state?.biography}</p>
+          <p className="artisteBio">{location.state?.biographie}</p>
 
-          <h3 className="artisteCity">Artiste City: {location.state?.city}</h3>
-          <a href={location.state?.website} className="artisteWebsite">
+          <h3 className="artisteCity">Artiste City: {location.state?.ville}</h3>
+          <a href={location.state?.site} className="artisteWebsite">
             WebSite:
-            <h3> {location.state?.website} </h3>
+            <h3> {location.state?.site} </h3>
           </a>
           <h2>ALBUMS :</h2>
           <div className="artisteAlbums">

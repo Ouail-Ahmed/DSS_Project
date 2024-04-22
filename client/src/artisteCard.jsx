@@ -10,7 +10,7 @@ function ArtisteCard({ artiste }) {
   };
   return (
     <div className="artisteCard" onClick={handleClick}>
-      <img src={artiste.image} alt={artiste.name} />
+      <img src={artiste.picture} alt={artiste.name} />
       <h3>{artiste.name}</h3>
     </div>
   );
@@ -18,7 +18,7 @@ function ArtisteCard({ artiste }) {
 
 ArtisteCard.propTypes = {
   artiste: PropTypes.shape({
-    image: PropTypes.string,
+    picture: PropTypes.string,
     name: PropTypes.string,
   }),
 };
