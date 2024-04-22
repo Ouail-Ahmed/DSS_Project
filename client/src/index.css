@@ -1,33 +1,231 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #000000de;
+  background-color: #f9f9f9;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
+  color: #1a1a1a;
 }
 a:hover {
-  color: #535bf2;
+  color: #d7d8e8;
+}
+
+nav a {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+nav {
+  background-color: hsl(237, 100%, 80%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchArtiste {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  margin-top: 2rem;
+  height: 2em;
+  width: 40%;
+  padding-inline: 8px;
+  padding-inline-start: 10px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #646cff;
+}
+
+input:focus {
+  outline: none;
+}
+.artistesList {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  width: 90%;
+  height: calc(100vh - 16rem);
+}
+.artisteCard {
+  background-color: #e1e1e1;
+
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+  border-radius: 2px;
+  padding: 4px;
+}
+.artisteCard:hover {
+  box-shadow: 0px 2px 4px #646cff;
+}
+.artisteCard img {
+  width: 400px;
+  height: 300px;
+  border-radius: 2px;
+}
+
+.artisteAlbums {
+  display: flex;
+  justify-content: space-around;
+  align-items: "center";
+  grid-row-start: 5;
+  grid-row-end: 13;
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
+
+.albumCard {
+  background-color: #ffffff;
+  height: fit-content;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
+.albumCard:hover {
+  box-shadow: 0px 2px 4px #646cff;
+}
+.albumCard h3 {
+  text-align: start;
+  margin-inline-start: 8px;
+}
+.albumCard p {
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+}
+.albumCard img {
+  width: 100%;
+}
+.albumCard h4 {
+  text-align: end;
+  margin-inline-end: 10px;
+  font-style: italic;
+}
+.artisteImage {
+  width: 200px;
+  height: 200px;
+  margin-top: -40px;
+  border-radius: 50%;
+  grid-area: 1/1/4/4;
+  margin-left: auto;
+  margin-right: auto;
+}
+.artisteName {
+  font-size: 2rem;
+  font-weight: 900;
+  grid-area: 1/4/2/-1;
+  margin-left: 16px;
+}
+.artistePage {
+  margin-top: 4rem;
+  padding: 4px;
+  background-color: #d9d9d9;
+  display: grid;
+  width: 100%;
+
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: repeat(12, 1fr);
+}
+.artisteBio {
+  grid-area: 2/4/4/-1;
+  margin-left: 32px;
+}
+.artisteCity {
+  grid-area: 3 / 1 / 6 / 5;
+  margin-left: auto;
+  margin-right: auto;
+}
+.artistePage h2 {
+  grid-row: 4 / 6;
+  grid-column: 1/3;
+  margin-left: auto;
+  margin-right: auto;
+}
+.artisteWebsite {
+  grid-row: 3 / 6;
+  grid-column: 6/11;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1100px) {
+  .artisteCard {
+    width: 300px;
+    height: 350px;
+  }
+  .artisteCard img {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .artisteCard {
+    width: 250px;
+    height: 350px;
+  }
+  .artisteCard img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 900px) {
+  .artisteCard {
+    width: 200px;
+    height: 350px;
+  }
+  .artisteCard img {
+    width: 200px;
+    height: 250px;
+  }
+}
+@media (max-width: 800px) {
+  .artisteCard {
+    width: 200px;
+    height: 300px;
+  }
+  .artisteCard img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .artisteCard {
+    width: 180px;
+    height: 300px;
+  }
+  .artisteCard img {
+    width: 180px;
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .artisteCard {
+    width: 150px;
+    height: 200px;
+  }
+  .artisteCard img {
+    width: 150px;
+    height: 120px;
+  }
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 {
@@ -52,17 +250,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
